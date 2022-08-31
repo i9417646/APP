@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "YTM-763_IMG_自動.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 8
+  }
+}

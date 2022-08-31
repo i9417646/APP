@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "CNCA_01.arreferenceimage"
+    },
+    {
+      "filename" : "CNCA_02.arreferenceimage"
+    },
+    {
+      "filename" : "G_01.arreferenceimage"
+    }
+  ]
+}

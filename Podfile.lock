@@ -1,0 +1,32 @@
+PODS:
+  - FlexibleSteppedProgressBar (0.7.2)
+  - JKSteppedProgressBar (0.5.1)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - FlexibleSteppedProgressBar
+  - JKSteppedProgressBar
+  - Socket.IO-Client-Swift
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - FlexibleSteppedProgressBar
+    - JKSteppedProgressBar
+    - Socket.IO-Client-Swift
+    - Starscream
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  FlexibleSteppedProgressBar: 6a781cfed749bf59c69813a8706aa397c342ab5c
+  JKSteppedProgressBar: b55bcac777c5b256375d6ae75cca93b75c5d8672
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 5651a6fa960f82be323b9c62268b1b9617537fb8
+
+COCOAPODS: 1.11.0
