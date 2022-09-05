@@ -42,6 +42,8 @@ class SingalEditScheduleViewController: UIViewController {
     @IBOutlet weak var ScheduleNumber: UILabel!
     @IBOutlet weak var TaskCount: UILabel!
     @IBOutlet weak var ProcessQuantity: UILabel!
+    
+    //退回排程(功能都做完剩下API)
     @IBOutlet weak var delet: UIButton!
     
 
@@ -60,6 +62,7 @@ class SingalEditScheduleViewController: UIViewController {
     
     @IBOutlet weak var gantt: UIView!
     
+    //加入實際排成按鈕(功能都做完剩下API)
     @IBOutlet weak var AddToSchedule: UIButton!
     
     
@@ -75,6 +78,10 @@ class SingalEditScheduleViewController: UIViewController {
     override func viewDidLoad() {
         
         print("此專案狀態：\(self.projectStatus!)000000000000000000000000000")
+        
+        //隱藏按鈕(功能未啟用)
+        self.AddToSchedule.isHidden = true
+        self.delet.isHidden = true
         
         //如果專案已經加入排程就不會顯示刪除鍵
         if self.projectStatus == "A" {
